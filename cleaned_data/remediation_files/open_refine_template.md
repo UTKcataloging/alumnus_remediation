@@ -25,6 +25,7 @@
 {{if(isBlank(cells['subject2'].value), '', '<subject authority="lcsh" valueURI="' + cells['subject2_URI'].value + '"><topic>' + cells['subject2'].value + '</topic></subject>')}}
 {{if(isBlank(cells['subject3'].value), '', '<subject authority="lcsh" valueURI="' + cells['subject3_URI'].value + '"><topic>' + cells['subject3'].value + '</topic></subject>')}}
 {{if(isBlank(cells['subject_name'].value), '', '<subject authority="naf" valueURI="' + cells['subject_name_URI'].value + '"><name><namePart>' + cells['subject_name'].value + '</namePart></name></subject>')}}
+{{if(isBlank(cells['subject_geo'].value), '', '<subject><geographic authority="naf" valueURI="' + cells['subject_geo_URI'].value + '">' + cells['subject_geo'].value + '</geographic><cartographics><coordinates>' + cells['coordinates'].value + '</coordinates></cartographics></subject>')}}
 <language><languageTerm type="text" authority="iso639-2b">English</languageTerm></language>
 <typeOfResource>text</typeOfResource>
 <classification authority="lcc">{{cells['classification'].value}}</classification>
