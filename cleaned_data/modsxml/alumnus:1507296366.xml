@@ -37,10 +37,17 @@
       <topic>College publications</topic>
    </subject>
    <subject authority="naf"
-            valueURI="http://id.loc.gov/authorities/names/n80003891">
+            valueURI="http://id.loc.gov/authorities/names/n79060965">
       <name>
          <namePart>University of Tennessee (System)</namePart>
       </name>
+   </subject>
+   <subject>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79109786">Tennessee</geographic>
+      <cartographics>
+         <coordinates>35.75035N, 86.25027W</coordinates>
+      </cartographics>
    </subject>
    <language>
       <languageTerm type="text" authority="iso639-2b">English</languageTerm>
